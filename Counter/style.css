@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    margin-top: 300px;
+    text-align: center;
+}
+
+main .counter-container {
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.counter-container h1 {
+    color: dodgerblue;
+}
+
+main .counter-container span {
+    font-size: 10rem;
+}
+
+.button-container .btn{
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    transition: background 0.4s linear;
+    cursor: pointer;
+}
+
+.button-container .decrease:hover {
+    background-color: rgb(231, 21, 63);
+}
+
+.button-container .increase:hover {
+    background-color: green;
+}
+
+.button-container .reset:hover {
+    background-color: rgb(231, 231, 21);
+}

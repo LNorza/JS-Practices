@@ -1,0 +1,83 @@
+body
+{
+    background: white;
+    border: 1px solid red;
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 2rem;
+}
+
+.header-right  input{
+    padding: 5px;
+}
+
+.input-left {
+    max-width: 110px;
+    border: 1px white solid;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.input-right {
+    background-color: rgb(112, 112, 240);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.section-one {
+    background-color: rgb(216, 240, 248);
+    padding: 5rem;
+    text-align: center;
+}
+
+.tittle-section {
+    font-size: 3em;
+}
+
+.section-one form {
+    margin-top: 10px;
+}
+
+.section-one form input {
+    width: 380px;
+}
+
+.section-tow {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de tamaño igual */
+    grid-template-rows: repeat(3, 1fr); /* Tres filas de tamaño igual */
+    gap: 10px; /* Espacio entre los contenedores */
+    padding: 20px;
+}
+
+
+.section-tow article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-tow article img {
+    width: 100px;
+}
