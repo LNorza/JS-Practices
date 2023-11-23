@@ -5,6 +5,10 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+body {
+    background-color: rgb(0, 0, 0);
+}
+
 main {
     margin-top: 200px;
     margin-bottom: 200px;
@@ -22,6 +26,7 @@ main .counter-container {
 
 main .counter-container span {
     font-size: 10rem;
+    color: white;
 }
 
 .button-container .btn {
@@ -31,6 +36,8 @@ main .counter-container span {
     padding: 5px 20px;
     transition: background 0.4s linear;
     cursor: pointer;
+    color: white;
+    border: 1px solid white;
 }
 
 .button-container .decrease:hover {
