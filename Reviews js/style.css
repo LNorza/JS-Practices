@@ -2,37 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
     background-color: #eff3f6;
     display: grid;
     place-items: center;
+    background-color: gray;
 }
 
-
-
-section { /*Main container of reviews*/
+section {
+    /*Main container of reviews*/
     margin-top: 50px;
     text-align: center;
     padding: 1rem 2rem;
 }
 
-section .tittle { /*Section with the title of web*/
+section .tittle {
+    /*Section with the title of web*/
     color: hsl(208.8deg 60.98% 16.08%);
     font-size: 2rem;
 }
 
-section .underline { /*Underline to decorate*/
-    background-color:hsl(205.13deg 78.43% 60%);
+section .underline {
+    /*Underline to decorate*/
+    background-color: hsl(205.13deg 78.43% 60%);
     height: 0.25rem;
-    width: 5rem;
+    width: 15rem;
+    border-radius: 5px;
     margin: 10px auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
-.review { /*Class container to contain styles of reviews*/
+.review {
+    /*Class container to contain styles of reviews*/
     box-shadow: 0 5px 15px grey;
     border-radius: 10px;
     padding: 1.5rem 2rem;
@@ -42,7 +47,8 @@ section .underline { /*Underline to decorate*/
     background-color: white;
 }
 
-.img-container { /*Container the image*/
+.img-container {
+    /*Container the image*/
     position: relative;
     width: 150px;
     height: 150px;
@@ -50,7 +56,8 @@ section .underline { /*Underline to decorate*/
     margin: 0px auto;
 }
 
-.img-container::before { /*Circle behind of the images-reviews*/
+.img-container::before {
+    /*Circle behind of the images-reviews*/
     content: "";
     width: 155px;
     height: 150px;
@@ -60,7 +67,8 @@ section .underline { /*Underline to decorate*/
     border-radius: 50%;
 }
 
-#person-img { /*ID from the images:*/
+#person-img {
+    /*ID from the images:*/
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -68,22 +76,24 @@ section .underline { /*Underline to decorate*/
     position: relative;
 }
 
-section #author { /*Name of the persons reviews*/
+section #author {
+    /*Name of the persons reviews*/
     display: block;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     color: darkblue;
 }
 
-section #job { /*Job of the persons*/
+section #job {
+    /*Job of the persons*/
     display: block;
-    color: hsl(205, 78%, 60%);
+    color: hsl(205.13deg 78.43% 60%);
     font-weight: 550;
     margin: 5px 0;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-section .info { 
+section .info {
     width: 350px;
     font-size: 16px;
     line-height: 1.5;
@@ -117,7 +127,7 @@ section .info {
 }
 
 .random-btn {
-    padding: 0.30rem;
+    padding: 0.3rem;
     border-radius: 10px;
     border: 2px rgb(92, 180, 247) solid;
     background-color: white;
@@ -127,5 +137,3 @@ section .info {
 .random-btn:hover {
     background-color: rgb(116, 170, 251);
 }
-
-
